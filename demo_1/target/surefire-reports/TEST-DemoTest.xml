@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DemoTest" time="1.006" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="F:\IEDAUltimate\code\demo_1\target\test-classes;F:\IEDAUltimate\code\demo_1\target\classes;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-webmvc\5.2.8.RELEASE\spring-webmvc-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-aop\5.2.8.RELEASE\spring-aop-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-context\5.2.8.RELEASE\spring-context-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-expression\5.2.8.RELEASE\spring-expression-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-web\5.2.8.RELEASE\spring-web-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-jdbc\5.2.8.RELEASE\spring-jdbc-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-test\5.2.8.RELEASE\spring-test-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\mybatis\mybatis-spring\2.0.1\mybatis-spring-2.0.1.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\com\alibaba\druid\1.1.16\druid-1.1.16.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\junit\junit\4.12\junit-4.12.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="F:\JDK\jdk1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\长夜\AppData\Local\Temp\surefire7762248031380656338\surefirebooter-20230323081723187_3.jar C:\Users\长夜\AppData\Local\Temp\surefire7762248031380656338 2023-03-23T08-17-22_676-jvmRun1 surefire-20230323081723187_1tmp surefire_0-20230323081723187_2tmp"/>
+    <property name="surefire.test.class.path" value="F:\IEDAUltimate\code\demo_1\target\test-classes;F:\IEDAUltimate\code\demo_1\target\classes;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-webmvc\5.2.8.RELEASE\spring-webmvc-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-aop\5.2.8.RELEASE\spring-aop-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-context\5.2.8.RELEASE\spring-context-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-expression\5.2.8.RELEASE\spring-expression-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-web\5.2.8.RELEASE\spring-web-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-jdbc\5.2.8.RELEASE\spring-jdbc-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\springframework\spring-test\5.2.8.RELEASE\spring-test-5.2.8.RELEASE.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\mybatis\mybatis\3.5.6\mybatis-3.5.6.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\mybatis\mybatis-spring\2.0.1\mybatis-spring-2.0.1.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\com\alibaba\druid\1.1.16\druid-1.1.16.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\junit\junit\4.12\junit-4.12.jar;F:\Maven\apache-maven-3.9.0\mvn_resp\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\长夜"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="F:\JDK\jdk1.8\jre"/>
+    <property name="basedir" value="F:\IEDAUltimate\code\demo_1"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\长夜\AppData\Local\Temp\surefire7762248031380656338\surefirebooter-20230323081723187_3.jar"/>
+    <property name="sun.boot.class.path" value="F:\JDK\jdk1.8\jre\lib\resources.jar;F:\JDK\jdk1.8\jre\lib\rt.jar;F:\JDK\jdk1.8\jre\lib\sunrsasign.jar;F:\JDK\jdk1.8\jre\lib\jsse.jar;F:\JDK\jdk1.8\jre\lib\jce.jar;F:\JDK\jdk1.8\jre\lib\charsets.jar;F:\JDK\jdk1.8\jre\lib\jfr.jar;F:\JDK\jdk1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_362-b08"/>
+    <property name="user.name" value="长夜"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="F:\JDK\jdk1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="F:\Maven\apache-maven-3.9.0\mvn_resp"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\长夜\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.version" value="1.8.0_362"/>
+    <property name="user.dir" value="F:\IEDAUltimate\code\demo_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="F:\JDK\jdk1.8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\VMware\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;F:\JDK\jdk1.8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\MySQL\MySQL Server 8.0\bin\;f:\eda\quartus\bin;F:\git\Git\bin;D:\VScodestore\Python39_64;F:\NodeJs\;F:\NodeJs\node_global;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;F:\Maven\apache-maven-3.9.0\bin;F:\Tomcat\apache-tomcat-8.5.87\bin;F:\Tomcat\apache-tomcat-8.5.87\lib;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\长夜\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\长夜\.dotnet\tools;F:\NodeJs\node_global;;F:\Fiddler;F:\IEDAUltimate\IntelliJ IDEA 2022.3.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.362-b08"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="F:\JDK\jdk1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="F:\Maven\apache-maven-3.9.0\mvn_resp"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testSelectAll" classname="DemoTest" time="0.257">
+    <system-out><![CDATA[[Course{id = 1, name = C语⾔程序设计, hours = 70, schools = 1}, Course{id = 2, name = Python程序设计, hours = 70, schools = 1}, Course{id = 3, name = ⼤学英语, hours = 96, schools = 2}, Course{id = 4, name = ⾼级Web技术, hours = 32, schools = 1}, Course{id = 5, name = 大数据存储, hours = 32, schools = 1}, Course{id = 6, name = 大数据存储, hours = 32, schools = 1}, Course{id = 7, name = 大数据存储, hours = 32, schools = 1}]
+]]></system-out>
+    <system-err><![CDATA[三月 23, 2023 8:17:23 上午 org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+三月 23, 2023 8:17:23 上午 org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@587d1d39, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58c1670b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6b57696f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5bb21b69, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6b9651f3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38bc8ab5, org.springframework.test.context.event.EventPublishingTestExecutionListener@687080dc]
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+三月 23, 2023 8:17:24 上午 com.alibaba.druid.support.logging.JakartaCommonsLoggingImpl info
+信息: {dataSource-1} inited
+]]></system-err>
+  </testcase>
+  <testcase name="testInsert" classname="DemoTest" time="0.006">
+    <system-out><![CDATA[添加成功
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="DemoTest" time="0.016">
+    <system-out><![CDATA[修改成功
+]]></system-out>
+  </testcase>
+  <testcase name="testSelectById" classname="DemoTest" time="0.002">
+    <system-out><![CDATA[Course{id = 2, name = Python程序设计, hours = 70, schools = 1}
+]]></system-out>
+  </testcase>
+  <testcase name="testSelectByscName" classname="DemoTest" time="0.004">
+    <system-out><![CDATA[[Course{id = 1, name = C语⾔程序设计, hours = 70, schools = 1}, Course{id = 2, name = Python程序设计, hours = 70, schools = 1}, Course{id = 4, name = ⾼级Web技术, hours = 32, schools = 1}, Course{id = 5, name = 大数据存储, hours = 32, schools = 1}, Course{id = 6, name = 大数据存储, hours = 32, schools = 1}, Course{id = 7, name = 大数据存储, hours = 32, schools = 1}, Course{id = 8, name = 大数据存储, hours = 32, schools = 1}]
+]]></system-out>
+  </testcase>
+</testsuite>

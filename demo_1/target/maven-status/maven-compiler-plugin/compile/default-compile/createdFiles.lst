@@ -1,0 +1,6 @@
+com\hnust\dao\CourseDao.class
+com\hnust\entity\Course.class
+com\hnust\service\impl\CourseServiceImpl.class
+com\hnust\service\CourseService.class
+com\hnust\entity\School.class
+com\hnust\util\MyBatisUtils.class
